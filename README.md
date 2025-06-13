@@ -31,6 +31,14 @@ utils
 main.py
 ```
 
+## Settings File
+
+In settings file it is required to have three constant variables:
+
+* ```MONGO_URI```
+* ```DB_NAME```
+* ```COLLECTION_NAME```
+
 ## Python Dependencies
 
 * selenium: ```pip install selenium```
