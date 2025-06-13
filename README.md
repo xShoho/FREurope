@@ -6,6 +6,7 @@ It is personal project, that is focused on gathering data about flights from [Fl
 ## Table of Content
 
 * [File Structure](#file-structure)
+* [Settings File](#settings-file)
 * [Python Dependecies](#python-dependencies)
 
 ## File Structure
@@ -27,6 +28,7 @@ scrappers
 └── flight_radar_scrapper.py
 utils
 ├── __init__.py
+├── helpers.py
 └── parser.py
 main.py
 ```
