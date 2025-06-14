@@ -34,7 +34,7 @@ def update_data(data: Flight):
         logger.warning(f"Couldn't update element of flight_uuid: { data.flight_uuid }")
     
 
-def get_data_uuid(flight_uuid: str):
+def get_data_by_uuid(flight_uuid: str):
     try:
         flight = collection.find_one({ "flight_uuid": flight_uuid })
     except:
